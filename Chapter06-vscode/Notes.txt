@@ -1,0 +1,13 @@
+Defining and handling events
+
+1. mkdir Chapter06-vscode 
+2. dotnet new sln --name Chapter06 
+3. dotnet new classlib --output PacktLibrary --framework net8.0
+4. dotnet sln add PacktLibrary 
+5. dotnet new console --output PeopleApp --framework net8.0
+6. dotnet sln add PeopleApp 
+7. <ItemGroup>
+    <Using Include="System.Console" Static="true" />
+  </ItemGroup>
+8. cd PeopleApp 
+9. dotnet add reference ..\PacktLibrary\PacktLibrary.csproj

@@ -1,0 +1,14 @@
+C:\Projects\cs12dotnet8\Chapter01\HelloCS\bin\Debug\net8.0\HelloCS.exe
+C:\Projects\cs12dotnet8\Chapter01\HelloCS\bin\Debug\net8.0\HelloCS.deps.json
+C:\Projects\cs12dotnet8\Chapter01\HelloCS\bin\Debug\net8.0\HelloCS.runtimeconfig.json
+C:\Projects\cs12dotnet8\Chapter01\HelloCS\bin\Debug\net8.0\HelloCS.dll
+C:\Projects\cs12dotnet8\Chapter01\HelloCS\bin\Debug\net8.0\HelloCS.pdb
+C:\Projects\cs12dotnet8\Chapter01\HelloCS\obj\Debug\net8.0\HelloCS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\cs12dotnet8\Chapter01\HelloCS\obj\Debug\net8.0\HelloCS.AssemblyInfoInputs.cache
+C:\Projects\cs12dotnet8\Chapter01\HelloCS\obj\Debug\net8.0\HelloCS.AssemblyInfo.cs
+C:\Projects\cs12dotnet8\Chapter01\HelloCS\obj\Debug\net8.0\HelloCS.csproj.CoreCompileInputs.cache
+C:\Projects\cs12dotnet8\Chapter01\HelloCS\obj\Debug\net8.0\HelloCS.dll
+C:\Projects\cs12dotnet8\Chapter01\HelloCS\obj\Debug\net8.0\refint\HelloCS.dll
+C:\Projects\cs12dotnet8\Chapter01\HelloCS\obj\Debug\net8.0\HelloCS.pdb
+C:\Projects\cs12dotnet8\Chapter01\HelloCS\obj\Debug\net8.0\HelloCS.genruntimeconfig.cache
+C:\Projects\cs12dotnet8\Chapter01\HelloCS\obj\Debug\net8.0\ref\HelloCS.dll

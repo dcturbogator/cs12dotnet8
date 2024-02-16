@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = PacktLibraryNetStandard2
+build_property.ProjectDir = C:\projects\cs12dotnet8\Chapter05-vscode\PacktLibraryNetStandard2\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
