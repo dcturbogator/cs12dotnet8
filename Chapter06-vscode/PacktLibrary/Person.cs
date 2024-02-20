@@ -1,5 +1,5 @@
 ﻿namespace Packt.Shared;
-public class Person
+public class Person : object, IComparable<Person?>
 {
   #region Properties
   public string? Name { get; set; }
@@ -103,7 +103,8 @@ public Person ProcreateWith(Person partner)
   #endregion
   #region Events 
     // Delegate field to define the event.
-    public EventHandler? Shout; // null initially.
+    public event EventHandler? Shout; // null initially.
+    public event EventHandler? Scream; //this is me playing around
     // Data field related to the event.
     public int AngerLevel;
     // Method to trigger the vent in certain conditions.
@@ -112,14 +113,57 @@ public Person ProcreateWith(Person partner)
       AngerLevel++;
       if (AngerLevel < 3) 
       {
-        return;
+        if (Scream is not null)
+        {
+          Scream(this, EventArgs.Empty);
+        }
+        
       }
+      else 
+      {
       // if something is listening to the event...
       if (Shout is not null)
       {
         // ...then call the delegate to "raise" the event.
         Shout(this, EventArgs.Empty);
       }
+      }
+
     }
   #endregion 
+
+  public int CompareTo(Person? other)
+  {
+    int position;
+    if (other is not null)
+    {
+      if ((Name is not null) && (other.Name is not null))
+      {
+        // If both Name values are not null, then
+        // use the string implementation of CompareTo.
+        position = Name.CompareTo(other.Name);
+      }
+      else if ((Name is not null) && (other.Name is null))
+      {
+        position = -1; // this Person precedes other Person.
+      }
+      else if ((Name is null) && (other.Name is not null))
+      {
+        position = 1; // this Person follows other Person.
+      }
+      else
+      {
+        position = 0; // this and other are at same position.
+      }
+    }
+    else if (other is null)
+    {
+      position = -1; // this Person precedes other Person.
+    }
+    else
+    {
+      position = 0; // this and other are at same position.
+    }
+    return position;
+  }
 }

@@ -9,3 +9,4 @@ C:\Projects\cs12dotnet8\Chapter06-vscode\PacktLibrary\obj\Debug\net8.0\PacktLibr
 C:\Projects\cs12dotnet8\Chapter06-vscode\PacktLibrary\obj\Debug\net8.0\refint\PacktLibrary.dll
 C:\Projects\cs12dotnet8\Chapter06-vscode\PacktLibrary\obj\Debug\net8.0\PacktLibrary.pdb
 C:\Projects\cs12dotnet8\Chapter06-vscode\PacktLibrary\obj\Debug\net8.0\ref\PacktLibrary.dll
+C:\Projects\cs12dotnet8\Chapter06-vscode\PacktLibrary\obj\Debug\net8.0\PacktLibrary.sourcelink.json

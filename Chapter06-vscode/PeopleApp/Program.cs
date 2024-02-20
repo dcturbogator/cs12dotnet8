@@ -68,8 +68,28 @@ key = 3;
 WriteLine($"{key} has value {lookupIntString[key]}");
 WriteLine("----------Defining and handling delegates----------");
 // Assign the method to the Shout delegate
-harry.Shout = Harry_Shout;
+harry.Shout += Harry_Shout;
+harry.Shout += Harry_Shout_2;
+harry.Scream += Harry_Scream;
+harry.Scream += Harry_Shout_2;
 harry.Poke();
 harry.Poke();
 harry.Poke();
 harry.Poke();
+WriteLine("----------Comparing objects when sorting----------");
+Person?[] people = 
+{
+    null,
+    new() { Name = "Simon" },
+    new() { Name = "Jenny" },
+    new() { Name = "Adam" },
+    new() { Name = null },
+    new() { Name = "Richard" },
+    new() { Name = "Christopher "}
+};
+OutputPeopleNames(people, "Initial list of people:");
+//Array.Sort(people);
+OutputPeopleNames(people, "After sorting using Person's IComparable implementation:");
+WriteLine("----------Comparing objects using a separate class----------");
+Array.Sort(people, new PersonComparer());
+OutputPeopleNames(people, "After soring using PersonComparer's IComparer implementation:");

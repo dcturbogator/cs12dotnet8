@@ -1,4 +1,4 @@
-Defining and handling events
+Implicit and explicit interface implementations
 
 1. mkdir Chapter06-vscode 
 2. dotnet new sln --name Chapter06 

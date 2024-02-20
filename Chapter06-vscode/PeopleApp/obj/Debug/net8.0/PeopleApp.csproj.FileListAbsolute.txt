@@ -16,3 +16,4 @@ C:\Projects\cs12dotnet8\Chapter06-vscode\PeopleApp\bin\Debug\net8.0\PacktLibrary
 C:\Projects\cs12dotnet8\Chapter06-vscode\PeopleApp\bin\Debug\net8.0\PacktLibrary.pdb
 C:\Projects\cs12dotnet8\Chapter06-vscode\PeopleApp\obj\Debug\net8.0\PeopleApp.csproj.AssemblyReference.cache
 C:\Projects\cs12dotnet8\Chapter06-vscode\PeopleApp\obj\Debug\net8.0\PeopleApp.csproj.CopyComplete
+C:\Projects\cs12dotnet8\Chapter06-vscode\PeopleApp\obj\Debug\net8.0\PeopleApp.sourcelink.json
